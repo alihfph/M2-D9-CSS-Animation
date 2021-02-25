@@ -1,0 +1,62 @@
+
+  .jumbotron-fluid{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg);
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: cover;
+    color: rgb(207, 204, 191);
+  }
+  img
+    { 
+        width: 250px;
+        height: 200px; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    h4 {
+        margin-left: 18px;
+    }
+    .btnhover {
+        background-color: #945610 !important;
+        border: none;
+        color: rgb(146, 108, 108);
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    .btn:hover {opacity: 1}
+    .tooltip{
+        display: inline;
+        color:black;
+        position: relative;
+        top:200px;
+      }
+      
+      .tooltip:hover:after{
+          background: grey;
+          border-radius: 5px;
+          color: #fff;
+          content: attr(title);
+          left: 20%;
+          padding: 5px 15px;
+          position: absolute;
+          top: -53px;
+          width: 163px;
+      }
+      
+      .tooltip:hover:before{
+        border:solid;
+        border-color: #333 transparent;
+        border-width: 6px 6px 0px 6px;
+        bottom: 20px;
+        content: "";
+        left: 50%;
+        position: absolute;
+        z-index: 99;
+      }
